@@ -1,7 +1,3 @@
----
-
-## ✅ Final `README.md` (Creative Commons License + Tailwind CLI)
-
 ```markdown
 # 👑 TechQueen Portfolio
 
@@ -11,11 +7,11 @@ A modern, responsive portfolio site for **TechQueen** — a seasoned **Graphic D
 
 ## ✨ Features
 
-- 🎨 Minimal and elegant UI to showcase design and product case studies
-- 📱 Fully responsive design for mobile and desktop
-- ⚡ Fast-loading with Tailwind CLI (no framework bloat)
-- 🧠 Optimized for accessibility and clean UX
-- 🖼️ Media-rich layout with strong visual hierarchy
+- 🎨 Minimal and elegant UI to showcase design and product case studies  
+- 📱 Fully responsive design for mobile and desktop  
+- ⚡ Fast-loading with Tailwind CLI (no framework bloat)  
+- 🧠 Optimized for accessibility and clean UX  
+- 🖼️ Media-rich layout with strong visual hierarchy  
 
 ---
 
@@ -54,7 +50,7 @@ techqueen-portfolio/
    ```
 
 3. **Open `index.html`:**
-   You can use Live Server or simply open the file in your browser.
+   Use Live Server or simply open it in your browser.
 
 ---
 
@@ -91,3 +87,12 @@ Learn more: [creativecommons.org/licenses/by-nc/4.0](https://creativecommons.org
 ```
 
 ---
+
+Let me know if you want:
+
+- A LICENSE file for Creative Commons
+- Shields (badges) at the top (e.g. License, Built with Tailwind)
+- Screenshot or live demo section added
+
+Happy to help polish it up!
+```

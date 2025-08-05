@@ -1,0 +1,6 @@
+Colors;
+1- #f2f2f2
+2- #ebe1d4
+3- #300865
+4- #552694
+Pages- Home About Projects Collaborations Contact

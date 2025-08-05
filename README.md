@@ -85,14 +85,3 @@ Learn more: [creativecommons.org/licenses/by-nc/4.0](https://creativecommons.org
 > 👑 Designed by **Okata Miracle** | Developed by \[Okata Miracle]
 
 ```
-
----
-
-Let me know if you want:
-
-- A LICENSE file for Creative Commons
-- Shields (badges) at the top (e.g. License, Built with Tailwind)
-- Screenshot or live demo section added
-
-Happy to help polish it up!
-```

@@ -10,8 +10,11 @@
 </head>
 <body class="bg-[#f2f2f2] font-[rubik] pt-28 lg:pt-40">
   <header class="navgation fixed top-4 lg:top-6 left-0 right-0 z-50 mx-4 lg:mx-64 h-14 lg:h-16 liquid-glass flex flex-row justify-between items-center rounded-4xl px-6">        
-      <a class="nav-link w-1/5 lg:h-12 flex items-center justify-center bg-[#ffffff] rounded-3xl px-2 py-0" href="#home">
+      <a class="nav-link w-1/5 lg:h-12 flex lg:hidden items-center justify-center bg-[#ffffff] rounded-3xl px-2 py-0" href="#home">
         <img src="/images/logo design/Favicon_00000.png" alt="">
+      </a>   
+      <a class="nav-link w-1/5 lg:h-12 lg:flex hidden items-center justify-center bg-[#ffffff] rounded-3xl px-2 py-0" href="#home">
+        <div class="w-full h-8 bg-cover lg:bg-contain bg-center bg-no-repeat" style="background-size: 6rem; background-image: url('/images/logo\ design/Favicon_00000.png');"></div>
       </a>   
       <a class="nav-link w-1/5 lg:h-12 flex items-center justify-center bg-none rounded-3xl px-2 py-3 text-[#300865] text-xs lg:text-lg font-semibold lg:font-bold" href="#about">
         <p>About</p>
@@ -30,12 +33,15 @@
   <section id="home" class="home mx-6 lg:mx-64 flex flex-col gap-4 lg:gap-8 justify-center items-center">
       <h1 class="text-2xl lg:text-5xl font-bold text-center">Designer,<br> Project-Manager</h1>
       <p class="text-lg lg:text-2xl font-[poppins] font-semibold text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, sit adipisci sapiente voluptates!</p>
-      <div class="user-image mt-8 lg:mt-8 bg-[#552694] w-60 lg:w-72 h-60 lg:h-72 rounded-full"></div>
-      <div class="w-full -mt-10 lg:-mt-16">
+      <div class="user-image mt-8 lg:mt-8 h-60 lg:h-72 flex flex-col items-center">
+        <div class=" bg-[#552694]  w-60 lg:w-72 h-60 lg:h-72 rounded-full"></div>
+        <img src="/images/illustrations/avatar_00000.png" class="absolute z-10 pb-4 lg:pb-6 w-64 lg:w-80 h-64 lg:h-80" alt="avatar">
+      </div>
+      <div class="w-full -mt-10 lg:-mt-16 z-20">
         <img src="/images/illustrations/3d-nft-icon-digital-artist-male.png" alt="">
       </div>
   </section>
-  <section id="about" class="about mb-6 flex flex-col justify-center items-center gap-4">
+  <section id="about" class="about flex flex-col justify-center items-center gap-4">
     <div class="flex flex-col bg-[#552694] w-full px-6 pt-10 lg:pt-32 pb-46 lg:pb-60 gap-6">
       <h1 class="text-lg lg:text-2xl text-[#f2f2f2] font-semibold text-center">Hi, I'm techqueen AKA John Doe. <br> Nice to meet you.</h1>
       <p class="text-base lg:text-lg text-[#f2f2f2] text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui rerum, commodi facilis asperiores aperiam tempora <br class="hidden lg:flex"> tenetur beatae vitae aliquid praesentium cum! Reiciendis, excepturi.<br class="hidden lg:flex"> Distinctio culpa commodi modi officia, tempora corporis!</p>
@@ -61,8 +67,64 @@
       </div>
     </div>
   </section>
+  <section id="projects" class="bg-gradient-to-tr from-violet-200 via-violet-600 to-pink-200 rounded-3xl projects mt-10  flex flex-col gap-4 lg:gap-8 justify-center items-center pt-10 pb-14">
+    <h1 class="text-2xl lg:text-4xl font-bold mx-6 lg:mx-64">My Recent Work</h1>
+    <p class="text-center lg:text-xl font-[poppins] mx-6 lg:mx-64">Here are a few past projects I've worked on. Want to see more? <a href="#" class="text-blue-600">Email me.</a></p>
+    <div class="skill-selector flex flex-row justify-center w-full gap-4 hover:gap-2 lg:px-10">
+      
+      <!-- Graphic Design Card -->
+      <a href="pages/graphic-design.html" class="group graphic-design liquid-glass-2 py-6 flex flex-col justify-center items-center rounded-2xl w-1/4 lg:w-2/5 lg:hover:w-2/3 hover:w-2/3 transition-all duration-500 ease-in-out">
 
-  <footer class="flex flex-col justify-center items-center bg-[#552694] w-full px-6 pt-60 pb-20">
+        <iconify-icon icon="streamline-cyber:design-mug" class="text-purple-950 text-xl bg-purple-100 rounded-2xl p-4 mb-10"></iconify-icon>
+        <h1 class="text-xl text-center font-semibold leading-none uppercase transition-all duration-500 ease-in-out">
+          <span class="block group-hover:inline-block transition-all duration-500">G</span>
+          <span class="block group-hover:inline-block transition-all duration-500">r</span>
+          <span class="block group-hover:inline-block transition-all duration-500">a</span>
+          <span class="block group-hover:inline-block transition-all duration-500">p</span>
+          <span class="block group-hover:inline-block transition-all duration-500">h</span>
+          <span class="block group-hover:inline-block transition-all duration-500">i</span>
+          <span class="block group-hover:inline-block transition-all duration-500">c</span>
+          <br>
+          <span class="block group-hover:inline-block transition-all duration-500">D</span>
+          <span class="block group-hover:inline-block transition-all duration-500">e</span>
+          <span class="block group-hover:inline-block transition-all duration-500">s</span>
+          <span class="block group-hover:inline-block transition-all duration-500">i</span>
+          <span class="block group-hover:inline-block transition-all duration-500">g</span>
+          <span class="block group-hover:inline-block transition-all duration-500">n</span>
+        </h1>
+      </a>
+
+      <!-- Project Management Card -->
+      <a href="pages/project-management.html" class="group graphic-design liquid-glass-2 py-6 flex flex-col justify-center items-center rounded-2xl w-1/4 lg:w-2/5 lg:hover:w-2/3 hover:w-2/3 transition-all duration-500 ease-in-out">
+        <iconify-icon icon="mdi:briefcase-account-outline" class="text-purple-950 text-xl bg-purple-100 rounded-2xl p-4 mb-10"></iconify-icon>
+        <h1 class="text-xl text-center font-semibold leading-none uppercase transition-all duration-500 ease-in-out">
+          <span class="block group-hover:inline-block transition-all duration-500">P</span>
+          <span class="block group-hover:inline-block transition-all duration-500">r</span>
+          <span class="block group-hover:inline-block transition-all duration-500">o</span>
+          <span class="block group-hover:inline-block transition-all duration-500">j</span>
+          <span class="block group-hover:inline-block transition-all duration-500">e</span>
+          <span class="block group-hover:inline-block transition-all duration-500">c</span>
+          <span class="block group-hover:inline-block transition-all duration-500">t</span>
+          <br>
+          <span class="block group-hover:inline-block transition-all duration-500">M</span>
+          <span class="block group-hover:inline-block transition-all duration-500">a</span>
+          <span class="block group-hover:inline-block transition-all duration-500">n</span>
+          <span class="block group-hover:inline-block transition-all duration-500">a</span>
+          <span class="block group-hover:inline-block transition-all duration-500">g</span>
+          <span class="block group-hover:inline-block transition-all duration-500">e</span>
+          <span class="block group-hover:inline-block transition-all duration-500">m</span>
+          <span class="block group-hover:inline-block transition-all duration-500">e</span>
+          <span class="block group-hover:inline-block transition-all duration-500">n</span>
+          <span class="block group-hover:inline-block transition-all duration-500">t</span>
+        </h1>
+      </a>
+    </div>
+  </section>
+  <section class="mt-4 lg:mt-8 flex flex-row justify-center items-center border-2 border-[#300865] hover:bg-[#300865] text-[#300865] hover:text-white transition-all duration-500 rounded-3xl mx-14 lg:mx-96 px-4 py-2 gap-2">
+    <iconify-icon icon="mdi:behance" class="text-3xl"></iconify-icon>
+    <a href="#" target="_blank" class="">See more on Behance</a>
+  </section>
+  <footer class="mt-6 flex flex-col justify-center items-center bg-[#552694] w-full px-6 pt-60 pb-20">
     <img class="w-32 lg:w-64 h-32 lg:h-64" src="/images/logo design/logomark_00000.png" alt="">
     <p class="text-lg lg:text-xl text-[#f2f2f2] text-center font-[poppins]">Designing with Vision, Leading with Purpose.</p>
     <div class="mt-10 socials flex gap-3 lg:gap-6">

@@ -4,3 +4,6 @@ Colors;
 3- #300865
 4- #552694
 Pages- Home About Projects Collaborations Contact
+
+
+bg-gradient-to-tr from-violet-400 via-violet-500 to-pink-200

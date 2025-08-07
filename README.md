@@ -17,18 +17,19 @@ A modern, responsive portfolio site for **TechQueen** — a seasoned **Graphic D
 
 ## 📁 Folder Structure
 
-```
-
 techqueen-portfolio/
 ├── index.html               # Main HTML file
-├── tailwind.config.js       # Tailwind configuration
-├── src/
-│   └── input.css            # Tailwind input CSS
-├── style/
+├── tailwind.config.js       # Tailwind CSS configuration
+├── src/                     # Source folder for Tailwind input
+│   └── input.css            # Tailwind input CSS file
+├── style/                   # Output folder for compiled CSS
 │   └── styles.css           # Compiled Tailwind CSS
-├── package.json             # Project dependencies
-├── .gitignore
-└── README.md
+├── package.json             # Project dependencies and scripts
+├── .gitignore               # Files/folders ignored by Git
+└── README.md                # Project overview and setup instructions
+
+
+```
 
 ````
 

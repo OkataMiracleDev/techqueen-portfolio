@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html style="scroll-behavior: smooth;" lang="en">
+<html style="scroll-behavior: smooth; scroll-padding-top: 10px;" lang="en">
 <head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../style/styles.css" rel="stylesheet">
-  <title>Techqueen Project Management Portfolio</title>
+  <title>Techqueen Design Portfolio</title>
 </head>
 <body class="bg-[#f2f2f2] font-[rubik] pt-28 lg:pt-40">
   <header class="navigation fixed top-4 lg:top-6 left-0 right-0 z-50 mx-20 lg:mx-64 h-14 lg:h-16 liquid-glass flex flex-row justify-center items-center rounded-4xl px-6">        
@@ -18,12 +18,74 @@
       </a>   
   </header>
 
+  <section id="contact" class="px-2 py-12 mx-2 lg:mx-80 rounded-2xl liquid-glass shadow-xs shadow-gray-400">
+    <h1 class="mb-8 lg:mb-14 text-2xl lg:text-3xl font-semibold lg:font-bold text-center">Contact Me</h1>
+    <form 
+      action="https://docs.google.com/forms/d/e/1FAIpQLSfpV6H-I_PlaYqc-0ML3q06ASNYOjfZsdQdO-iWwLyZDAtvMw/formResponse?usp=sharing&ouid=104050802580018538662" 
+      method="POST" 
+      target="_blank"
 
-  <section class="mt-4 lg:mt-8 flex flex-row justify-center items-center border-2 border-[#650808] hover:bg-[#650808] text-[#650808] hover:text-white transition-all duration-500 rounded-3xl mx-14 lg:mx-96 px-4 py-2 gap-2">
-    <iconify-icon icon="mdi:instagram" class="text-3xl"></iconify-icon>
-    <a href="#" target="_blank" class="">See more on Instagram</a>
+      class="flex flex-col gap-4 max-w-xl mx-auto">
+      <!-- Name -->
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input 
+          type="text" 
+          id="name" 
+          name="entry.1211441886" 
+          required 
+          class="mt-1 w-full px-4 py-2 border border-white rounded-md bg-white">
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="entry.752932902" 
+          required 
+          class="mt-1 w-full px-4 py-2 border border-white rounded-md bg-white"
+        >
+      </div>
+
+      <!-- Project Type -->
+      <div>
+        <label for="project" class="block text-sm font-medium text-gray-700">Which project?</label>
+        <select 
+          id="project" 
+          name="entry.2117745121" 
+          required 
+          class="mt-1 w-full px-4 py-2 border border-white rounded-md bg-white"
+        >
+          <option value="">Select a project</option>
+          <option value="Graphic Design">Graphic Design</option>
+          <option value="Project Management">Project Management</option>
+        </select>
+      </div>
+
+      <!-- Additional Details -->
+      <div>
+        <label for="details" class="block text-sm font-medium text-gray-700">Additional details</label>
+        <textarea 
+          id="details" 
+          name="entry.1374084869" 
+          rows="4" 
+          class="mt-1 w-full px-4 py-2 border border-white rounded-md bg-white"
+        ></textarea>
+      </div>
+
+      <!-- Submit -->
+      <button 
+        type="submit" 
+        class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700"
+      >
+        Submit
+      </button>
+    </form>
   </section>
-  <footer class="mt-6 flex flex-col justify-center items-center bg-[#552694] w-full px-6 pt-60 pb-20">
+
+  <footer class="mt-20 flex flex-col justify-center items-center bg-[#552694] w-full px-6 pt-60 pb-20">
     <img class="w-32 lg:w-64 h-32 lg:h-64" src="/images/logo design/logomark_00000.png" alt="">
     <p class="text-lg lg:text-xl text-[#f2f2f2] text-center font-[poppins]">Designing with Vision, Leading with Purpose.</p>
     <div class="mt-10 socials flex gap-3 lg:gap-6">

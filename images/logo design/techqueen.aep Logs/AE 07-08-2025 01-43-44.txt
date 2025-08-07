@@ -1,0 +1,17 @@
+Adobe After Effects v23.6 Windows 64 render log for project “techqueen.aep”
+
+Rendering started on 07/08/2025 at 01:43:44
+
+  07/08/2025 01:43:44: Starting composition “collaboration”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\2. Techqueen Portfolio\images\illustrations\collaboration_[#####].jpg    07/08/2025 01:43:44: Finished composition “collaboration”.
+
+
+  07/08/2025 01:43:44: Starting composition “Favicon”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\2. Techqueen Portfolio\images\logo design\Favicon_[#####].png    07/08/2025 01:43:45: Finished composition “Favicon”.
+
+
+  Total Time Elapsed: 1 Seconds
+Log closed on 07/08/2025 at 01:43:45
+

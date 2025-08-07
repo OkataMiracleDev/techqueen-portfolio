@@ -1,8 +1,8 @@
 Colors;
 1- #f2f2f2
 2- #ebe1d4
-3- #300865
-4- #552694
+3- #082c65
+4- #267194
 Pages- Home About Projects Collaborations Contact
 
 

@@ -27,3 +27,7 @@
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);}
 
+.text-liquid-glass-2{
+  color: rgba(225, 198, 173, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);}

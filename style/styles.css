@@ -23,11 +23,13 @@
     --color-violet-400: oklch(70.2% 0.183 293.541);
     --color-violet-500: oklch(60.6% 0.25 292.717);
     --color-pink-200: oklch(89.9% 0.061 343.231);
+    --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-gray-700: oklch(37.3% 0.034 259.733);
+    --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-xl: 36rem;
@@ -226,6 +228,9 @@
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
+  }
+  .right-4 {
+    right: calc(var(--spacing) * 4);
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
@@ -499,6 +504,9 @@
   .overflow-hidden {
     overflow: hidden;
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -551,9 +559,6 @@
   .border-yellow-700 {
     border-color: var(--color-yellow-700);
   }
-  .bg-\[\#\#650808\] {
-    background-color: ##650808;
-  }
   .bg-\[\#082c65\] {
     background-color: #082c65;
   }
@@ -580,6 +585,9 @@
   }
   .bg-blue-600 {
     background-color: var(--color-blue-600);
+  }
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -847,6 +855,13 @@
       }
     }
   }
+  .hover\:bg-\[\#267194\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #267194;
+      }
+    }
+  }
   .hover\:bg-\[\#650808\] {
     &:hover {
       @media (hover: hover) {
@@ -951,6 +966,11 @@
   .lg\:mt-2 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 2);
+    }
+  }
+  .lg\:mt-4 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 4);
     }
   }
   .lg\:mt-8 {
@@ -1198,6 +1218,21 @@
           width: calc(2/3 * 100%);
         }
       }
+    }
+  }
+  .dark\:bg-\[\#082c65\] {
+    @media (prefers-color-scheme: dark) {
+      background-color: #082c65;
+    }
+  }
+  .dark\:bg-\[\#121212\] {
+    @media (prefers-color-scheme: dark) {
+      background-color: #121212;
+    }
+  }
+  .dark\:bg-gray-800 {
+    @media (prefers-color-scheme: dark) {
+      background-color: var(--color-gray-800);
     }
   }
 }

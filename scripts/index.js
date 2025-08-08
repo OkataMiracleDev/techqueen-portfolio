@@ -47,3 +47,4 @@ navLinks.forEach(link => {
 
   btn1.addEventListener("click", () => activateSlide(0));
   btn2.addEventListener("click", () => activateSlide(1));
+
